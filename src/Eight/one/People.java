@@ -4,8 +4,9 @@ public class People {
 	
 	public static void ride(Cycle c) {
 //		c.run();
-		c.fly();
+//		c.fly();
 //		System.out.println(c);
+		((Bicycle)c).blance();
 	}
 	
 	

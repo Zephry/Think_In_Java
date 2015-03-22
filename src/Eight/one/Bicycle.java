@@ -11,4 +11,7 @@ public class Bicycle extends Cycle {
 	public String toString() {
 		return "I am Bicycle";
 	}
+	public void blance() {
+		System.out.println("I can balance");
+	}
 }
